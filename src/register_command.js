@@ -50,6 +50,7 @@ const rest = new REST().setToken(dcConfig.token);
         );
 
         console.log(`Loaded ${data.length} commands`);
+        // console.log(commands);
     } catch (error) {
         console.log(`Error registering commands: ${error}`);
     }
